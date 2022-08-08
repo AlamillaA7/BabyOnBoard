@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Bluetooth</string>
+    <string name="title_home_screen">Home</string>
+    <string name="title_disclaimer">Disclaimer</string>
+    <string name="title_settings">Settings</string>
+    <string name="app_icon_content_description">The application icon.</string>
+    <string name="description_disclaimer">This app is not intended to be used while the vehicle is in motion.\n\nPlease drive safely!</string>
+    <string name="ask_if_baby_on_board">Is there a baby on board?</string>
+    <string name="btn_yes">Yes</string>
+    <string name="btn_no">No</string>
+
+    <string name="warning_message">BabyonBoard is not a substitute for remaining aware of children in vehicle. BabyonBoard is not a certified or guaranteed system, it is only a tool to help remind parents to check if they have a baby on board when operating a vehicle. BabyonBoard does not guarantee any outcomes, parents are still solely responsible for child safety</string>
+    <string name="warning">Disclaimer</string>
+    <string name="ok">ok</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bus_alert_icon_description">Bus alert icon.</string>
+    <string name="ask_connection_selection">How would you like to connect?</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="location">Location</string>
+    <string name="x">X</string>
+    <string name="channel_description">description sajfakjsf</string>
+    <string name="channel_name">ALERT</string>
+</resources>
