@@ -116,6 +116,16 @@ class BluetoothPageFragment : Fragment() {
                 .bigText("Please See That The Baby On Board Is Secured Properly. Reminder: BOB Is Not Responsible For Technical Malfunctions With Bluetooth Capability "))
             .setPriority(NotificationCompat.PRIORITY_DEFAULT)
             .setContentIntent(resultPendingIntent)
+        
+        var builder2 = NotificationCompat.Builder(requireContext(), CHANNEL_ID)
+            .setSmallIcon(R.drawable.ic_launcher_foreground)
+            .setLargeIcon(bitmap)
+            //.setStyle(bpStyle)
+            .setContentTitle("BLUETOOTH DISCONNECTED")
+            .setContentText("Much longer text that cannot fit one line...")
+            .setStyle(NotificationCompat.BigTextStyle()
+                .bigText("Please Take Baby On Board With You As You Exit Your Vehicle "))
+            .setPriority(NotificationCompat.PRIORITY_DEFAULT)
 
         var builder2 = NotificationCompat.Builder(requireContext(), CHANNEL_ID)
             .setSmallIcon(R.drawable.ic_launcher_foreground)
