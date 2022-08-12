@@ -117,6 +117,16 @@ class BluetoothPageFragment : Fragment() {
             .setPriority(NotificationCompat.PRIORITY_DEFAULT)
             .setContentIntent(resultPendingIntent)
 
+        var builder2 = NotificationCompat.Builder(requireContext(), CHANNEL_ID)
+            .setSmallIcon(R.drawable.ic_launcher_foreground)
+            .setLargeIcon(bitmap)
+            //.setStyle(bpStyle)
+            .setContentTitle("BLUETOOTH DISCONNECTED")
+            .setContentText("Much longer text that cannot fit one line...")
+            .setStyle(NotificationCompat.BigTextStyle()
+                .bigText("Please Take Baby On Board With You As You Exit Your Vehicle "))
+            .setPriority(NotificationCompat.PRIORITY_DEFAULT)
+
 
 
 
@@ -173,6 +183,8 @@ class BluetoothPageFragment : Fragment() {
             if (!bAdapter.isEnabled){
                 //already enabled
                 Toast.makeText(context, "already off", Toast.LENGTH_LONG).show()
+                NotificationManagerCompat.from(requireContext()).notify(notificationId, builder2.build())
+
             } else {
                 //tun on bluetooth
                 bAdapter.disable()

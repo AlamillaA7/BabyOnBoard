@@ -28,4 +28,12 @@
         android:name="com.zybooks.babyonboard.SettingsFragment"
         android:label="@string/title_settings"
         tools:layout="@layout/fragment_settings" />
+
+
+    <fragment
+        android:id="@+id/navigation_location_page"
+        android:name="com.zybooks.babyonboard.LocationPageFragment"
+        android:label="@string/title_location"
+        tools:layout="@layout/fragment_location_page"/>
+
 </navigation>

@@ -4,9 +4,15 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/5900X/Desktop/BabyOnBoard-Bluetooth/BabyOnBoard-Bluetooth/application/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/5900X/Desktop/BabyOnBoard-Bluetooth/BabyOnBoard-Bluetooth/application/app/src/main/res/layout/fragment_baby_on_board.xml" value="0.21103896103896103" />
         <entry key="..\:/Users/5900X/Desktop/BabyOnBoard-Bluetooth/BabyOnBoard-Bluetooth/application/app/src/main/res/layout/fragment_bluetooth_page.xml" value="0.18857142857142858" />
+        <entry key="..\:/Users/5900X/Desktop/BabyOnBoard-Bluetooth/BabyOnBoard-Bluetooth/application/app/src/main/res/layout/fragment_disclaimer.xml" value="0.1" />
         <entry key="..\:/Users/5900X/Desktop/BabyOnBoard-Bluetooth/BabyOnBoard-Bluetooth/application/app/src/main/res/layout/fragment_disclaimer_dialog.xml" value="0.1" />
         <entry key="..\:/Users/5900X/Desktop/BabyOnBoard-Bluetooth/BabyOnBoard-Bluetooth/application/app/src/main/res/layout/fragment_home_screen.xml" value="0.1" />
+        <entry key="..\:/Users/5900X/Desktop/BabyOnBoard-Bluetooth/BabyOnBoard-Bluetooth/application/app/src/main/res/layout/fragment_location_page.xml" value="0.18857142857142858" />
+        <entry key="..\:/Users/5900X/Desktop/BabyOnBoard-Bluetooth/BabyOnBoard-Bluetooth/application/app/src/main/res/layout/fragment_method_selection.xml" value="0.18888888888888888" />
+        <entry key="..\:/Users/5900X/Desktop/BabyOnBoard-Bluetooth/BabyOnBoard-Bluetooth/application/app/src/main/res/layout/fragment_settings.xml" value="0.18857142857142858" />
+        <entry key="..\:/Users/5900X/Desktop/BabyOnBoard-Bluetooth/BabyOnBoard-Bluetooth/application/app/src/main/res/menu/bottom_nav_menu.xml" value="0.2942708333333333" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.17753623188405798" />
         <entry key="app/src/main/res/layout/bluetooth_page.xml" value="0.17753623188405798" />
         <entry key="app/src/main/res/layout/fragment_disclaimer.xml" value="0.17753623188405798" />

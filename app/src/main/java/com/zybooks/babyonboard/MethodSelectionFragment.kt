@@ -29,15 +29,32 @@ class MethodSelectionFragment : Fragment() {
         requireActivity().onBackPressedDispatcher.addCallback(viewLifecycleOwner, callback)
         // The callback can be enabled or disabled here or in handleOnBackPressed()
 
+
         val button = view.findViewById<Button>(R.id.yesBtn)
         button.setOnClickListener(bluetoothBtnListener)
+
+
+        val button2 = view.findViewById<Button>(R.id.gpsBtn)
+         button2.setOnClickListener(locationBtnListener)
+
+
+
         return view
+
+
     }
 
     private val bluetoothBtnListener = View.OnClickListener {
         val bluetoothPageFrag = BluetoothPageFragment()
         val transaction: FragmentTransaction = requireFragmentManager().beginTransaction()
         transaction.replace(R.id.nav_host_fragment, bluetoothPageFrag)
+            .commit()
+    }
+
+    private val locationBtnListener = View.OnClickListener {
+        val locationPageFrag = LocationPageFragment()
+        val transaction: FragmentTransaction = requireFragmentManager().beginTransaction()
+        transaction.replace(R.id.nav_host_fragment, locationPageFrag)
             .commit()
     }
 }
